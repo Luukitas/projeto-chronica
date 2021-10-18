@@ -11,18 +11,12 @@ public class SelecionarDesafio : MonoBehaviour
 {
     public Button button;
     RawImage imagem;
-    Texture text;
-    Material material;
-    //Select a Texture in the Inspector to change to
-    public Texture m_Texture;
 
     // Start is called before the first frame update
     void Start()
     {
-        m_Texture = material.GetTexture("download-removebg-preview");
         Button btn = GameObject.Find("botaoDesafio").GetComponent<Button>();
         btn.onClick.AddListener(ComecarDesafio);
-        imagem = GameObject.Find("imagemArtefato").GetComponent<RawImage>();
     }
 
 
@@ -33,22 +27,15 @@ public class SelecionarDesafio : MonoBehaviour
     }
 
     void ComecarDesafio(){  
-        imagem.texture = m_Texture;
-
+        GameObject.Find("imagemArtefato").GetComponent<RectTransform>().sizeDelta = new Vector2(100, 50);
         Debug.Log("Ele começou o desafio");
-        
-        //yield on a new YieldInstruction that waits for 5 seconds.
-
         Invoke("ExecuteAfterTime", 2);
-        //After we have waited 5 seconds print the time again.
     }
 
 
     void ExecuteAfterTime(){
 
         SceneManager.LoadScene(1);
-        //Debug.Log("Started Coroutine at timestamp : " + Time.time);
-        //yield return new WaitForSeconds(5);
 
     }
 }
