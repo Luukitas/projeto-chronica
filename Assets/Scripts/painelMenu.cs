@@ -8,7 +8,7 @@ public class painelMenu : MonoBehaviour
     
     public void IniciarJogo ()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void SairJogo ()
