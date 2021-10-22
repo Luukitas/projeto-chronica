@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/CenarioVitor/Assets/Scenes/SampleScene.unity
+- path: Assets/CenarioVitorAtualizada/Assets/Scenes/Cena01.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

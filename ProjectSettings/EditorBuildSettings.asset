@@ -6,12 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MenuPrincipal.unity
+    guid: 6e2930132376fa944bfd478c34d55cd1
+  - enabled: 1
     path: Assets/Scenes/ComecarDesafio.unity
     guid: 5723df6f00cfb7147843f029e85ed6ec
   - enabled: 1
-    path: Assets/CenarioVitor/Assets/Scenes/SampleScene.unity
-    guid: 89a914375d9ce483c9d2824df73f60e2
+    path: Assets/CenarioVitorAtualizada/Assets/Scenes/Cena01.unity
+    guid: 10f96ab4941629a4e9bf28be5bd42ae3
   - enabled: 1
     path: Assets/Quiz/Assets/Quiz.unity
     guid: 7eed78ffc54386f5c82ebe7922f12852
+  - enabled: 1
+    path: Assets/Livro/Assets/Livro.unity
+    guid: 8e50964e443bc86c2a2868237d5024a1
   m_configObjects: {}

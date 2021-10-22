@@ -19,8 +19,8 @@ public class RecuperarPerguntas : MonoBehaviour
         botaoB = GameObject.Find("botaoRespostaB").GetComponent<Button>();
         botaoC = GameObject.Find("botaoRespostaC").GetComponent<Button>();
         botaoD = GameObject.Find("botaoRespostaD").GetComponent<Button>();
-        respostas = new string[4] {"resposta a", "resposta b", "resposta c", "resposta d"};
-        pergunta = "Uma Pergunta";
+        respostas = new string[4] {"Eles eram o comerciante principal do rei.", "Eles eram escribas que trocavam mensagens com outras civilizações.", "Eles eram os líderes religiosos e políticos que representavam o Antigo Egito.", "Eles eram líderes políticos e não tinham nenhuma relação com religião."};
+        pergunta = "Por que os faraós eram figuras importantes no Antigo Egito?";
         respostaCorreta = respostas[1];
         DestravaMouse();
         RecuperaDados(pergunta, respostas);
