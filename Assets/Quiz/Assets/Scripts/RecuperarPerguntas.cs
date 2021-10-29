@@ -21,7 +21,7 @@ public class RecuperarPerguntas : MonoBehaviour
         botaoD = GameObject.Find("botaoRespostaD").GetComponent<Button>();
         respostas = new string[4] {"Eles eram o comerciante principal do rei.", "Eles eram escribas que trocavam mensagens com outras civilizações.", "Eles eram os líderes religiosos e políticos que representavam o Antigo Egito.", "Eles eram líderes políticos e não tinham nenhuma relação com religião."};
         pergunta = "Por que os faraós eram figuras importantes no Antigo Egito?";
-        respostaCorreta = respostas[1];
+        respostaCorreta = respostas[2];
         DestravaMouse();
         RecuperaDados(pergunta, respostas);
     }
@@ -74,9 +74,13 @@ public class RecuperarPerguntas : MonoBehaviour
     void VerificarRespostaCorreta(string resposta, string respostaCorreta){
         if(resposta == respostaCorreta){
             Debug.Log("Resposta Correta");
-            SceneManager.LoadScene(2);
+            Invoke("ExecuteAfterTime2", 1.5f);
         }else{
             Debug.Log("Resposta Errada");
         }
+    }
+
+    void ExecuteAfterTime2() {
+            SceneManager.LoadScene(2);
     }
 }
