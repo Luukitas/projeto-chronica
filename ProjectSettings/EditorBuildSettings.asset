@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Livro/Assets/Livro.unity
     guid: 8e50964e443bc86c2a2868237d5024a1
+  - enabled: 1
+    path: Assets/CenarioVitorAtualizada/Assets/Scenes/FinalEgito.unity
+    guid: 33cee56eeecfe9b47884eff010f66db9
   m_configObjects: {}
