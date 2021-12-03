@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/CenarioVitorAtualizada/Assets/Scenes/FinalEgito.unity
+- path: Assets/Scenes/Menu2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
