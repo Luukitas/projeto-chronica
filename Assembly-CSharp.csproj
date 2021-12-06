@@ -49,6 +49,7 @@
   <ItemGroup>
      <Compile Include="Assets\CenarioVitorAtualizada\Assets\Scripts\PegarArtefato.cs" />
      <Compile Include="Assets\Scripts\SelecionarDesafio.cs" />
+     <Compile Include="Assets\CenarioVitorAtualizada\Assets\Scripts\Sound.cs" />
      <Compile Include="Assets\SettingsMenu.cs" />
      <Compile Include="Assets\PauseMenu.cs" />
      <Compile Include="Assets\CenarioVitor\Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
@@ -60,6 +61,7 @@
      <Compile Include="Assets\FirstPersion AIO Pack\DemoScene\MiscScripts\Doors.cs" />
      <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\Quiz\Assets\Scripts\RecuperarPerguntas.cs" />
+     <Compile Include="Assets\Audio_Manager.cs" />
      <Compile Include="Assets\Scripts\painelMenu.cs" />
      <Compile Include="Assets\Livro\Assets\Scripts\RecuperarTextoLivro.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
