@@ -49,6 +49,8 @@
   <ItemGroup>
      <Compile Include="Assets\CenarioVitorAtualizada\Assets\Scripts\PegarArtefato.cs" />
      <Compile Include="Assets\Scripts\SelecionarDesafio.cs" />
+     <Compile Include="Assets\SettingsMenu.cs" />
+     <Compile Include="Assets\PauseMenu.cs" />
      <Compile Include="Assets\CenarioVitor\Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
      <Compile Include="Assets\CenarioVitorAtualizada\Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
      <Compile Include="Assets\Quiz\Assets\Scripts\ValidarQuiz.cs" />
@@ -56,6 +58,7 @@
      <Compile Include="Assets\CenarioVitorAtualizada\Assets\Scripts\AbrirLivro.cs" />
      <Compile Include="Assets\CenarioVitorAtualizada\Assets\Scripts\AbrirQuiz.cs" />
      <Compile Include="Assets\FirstPersion AIO Pack\DemoScene\MiscScripts\Doors.cs" />
+     <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\Quiz\Assets\Scripts\RecuperarPerguntas.cs" />
      <Compile Include="Assets\Scripts\painelMenu.cs" />
      <Compile Include="Assets\Livro\Assets\Scripts\RecuperarTextoLivro.cs" />
